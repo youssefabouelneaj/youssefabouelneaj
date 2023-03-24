@@ -1,9 +1,85 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>My Webpage</title>
-  </head>
-  <body>
-    <h1>Welcome to my webpage!</h1>
-    <p>This is a paragraph of text.</p>
-  </body>
+<head>
+	<title>Wormhole - Connect your PC anywhere anytime</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<h1>Wormhole</h1>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#features">Features</a></li>
+				<li><a href="#pricing">Pricing</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="home">
+			<h2>Connect your PC anywhere anytime with Wormhole</h2>
+			<p>Wormhole allows you to connect your home PC with low latency from anywhere in the world, even on the go.</p>
+			<a href="#pricing" class="cta">Get started</a>
+		</section>
+
+		<section id="features">
+			<h2>Features</h2>
+			<ul>
+				<li>Low latency connection</li>
+				<li>Remote gaming</li>
+				<li>Access files and programs</li>
+				<li>Create your own cloud</li>
+			</ul>
+			<a href="#pricing" class="cta">Get started</a>
+		</section>
+
+		<section id="pricing">
+			<h2>Pricing</h2>
+			<table>
+				<tr>
+					<th>Plan</th>
+					<th>Price</th>
+				</tr>
+				<tr>
+					<td>Basic</td>
+					<td>$9.99/month</td>
+				</tr>
+				<tr>
+					<td>Pro</td>
+					<td>$19.99/month</td>
+				</tr>
+				<tr>
+					<td>Business</td>
+					<td>$49.99/month</td>
+				</tr>
+			</table>
+			<a href="#contact" class="cta">Contact us</a>
+		</section>
+
+		<section id="contact">
+			<h2>Contact us</h2>
+			<form>
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="message">Message</label>
+				<textarea id="message" name="message" required></textarea>
+
+				<button type="submit">Send message</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Wormhole. All rights reserved.</p>
+	</footer>
+</body>
 </html>
