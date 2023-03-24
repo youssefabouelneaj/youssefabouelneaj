@@ -1,0 +1,125 @@
+/* Set global font family */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Set background color */
+body {
+  background-color: #292d3e;
+}
+
+/* Style header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f1f2e;
+  padding: 20px;
+}
+
+/* Style logo */
+.logo {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Style navigation */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  color: #e1bee7;
+}
+
+/* Style main content */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  color: #fff;
+}
+
+/* Style main header */
+main h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* Style main buttons */
+main .btn {
+  background-color: #6f42c1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+main .btn:hover {
+  background-color: #5a32a3;
+}
+
+/* Style footer */
+footer {
+  background-color: #1f1f2e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style tab container */
+.tab-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  border-bottom: 1px solid #6f42c1;
+}
+
+/* Style tabs */
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.tabs li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.tabs li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+.tabs li a:hover {
+  border-bottom: 3px solid #6f42c1;
+}
+
+/* Style active tab */
+.tabs .active a {
+  border-bottom: 3px solid #e1bee7;
+}
